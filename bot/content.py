@@ -13,5 +13,5 @@ def get_tweet_content() -> str:
 
     extra_n: str = "n" if random_adjective[0] in vowls else ""
 
-    return f"Game development is exactly like a{extra_n} {random_adjective} {random_noun}"
+    return f"Game development is exactly like a{extra_n} {random_adjective} {random_noun}."
 
